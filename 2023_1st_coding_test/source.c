@@ -46,9 +46,10 @@ int main(){
     
     question9();
     */
+    printf("\n*\t*\t*\tQUESTION No.10*\t*\t*\t\n");
     question10();
 
-    printf("\n*\t*\t*\tQUESTION No.11*\t*\t*\t");
+    printf("\n*\t*\t*\tQUESTION No.11*\t*\t*\t\n");
     question11();
 
     return 0;
@@ -293,15 +294,15 @@ int question9(){
 }
 
 int question10(){
-
     for(int iter =1; iter <10; iter++){
-        if(iter%2 != 2) 
+        if(iter%2 != 0) 
             continue;
         for (int dan=1; dan<=10; dan++){
+                printf("%d X %d = %d\n", iter, dan, iter*dan); 
                 if(dan == iter) 
                     break;
-                printf("%d X %d = %d\n", iter, dan, iter*dan); 
             }
+            printf("\n");
         }
     return 0;
 }
@@ -315,7 +316,7 @@ int question11(){
         scanf("%d", &inp);
         if(inp >=11) {
             printf("그렇게 많은 별표를 출력할 수 없습니다.\n");
-            continue;
+            break;
         }
         else if(inp == 0) continue;
         else
