@@ -12,6 +12,7 @@ int main(){
     while(iter <3){
         scanf("%d", &inp);
         printf("the result of sumation is :: %d\n",total(inp));
+        iter ++;
 
     }
 }
