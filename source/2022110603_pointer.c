@@ -13,9 +13,10 @@ int main()
     printf("value_B값 입력 : ");
     scanf("%d", &b);
 
-    swap(p1,p2);
+    swap(p1,p2); //swap value of a and b
 
-    printf("changed value of variable of A is %d \nchanged value of variable of B is %d \n", *p1, *p2);
+    printf("changed value of variable of P1 is %d \nchanged value of variable of P2 is %d \n", *p1, *p2);
+    printf("changed value of variable of A is %d \nchanged value of variable of B is %d \n", a, b);
     printf("\n\n*\t*\t*\t*end of the program*\t*\t*\t*\n");
     return 0;
 }
