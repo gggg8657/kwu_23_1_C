@@ -6,12 +6,12 @@ int main()
 {
     int a, b;
     int *p1, *p2;
-    p1 = &a;
-    p2 = &b;
-    printf("*\t*\t*\t*initiating program*\t*\t*\t*\n\n\nvalue_A값 입력 : ");
+    p1 = &a; //make pointer p1 to point variable a's address
+    p2 = &b; //make pointer p2 to point variable b's address
+    printf("*\t*\t*\t*initiating program*\t*\t*\t*\n\n\nvalue_A값 입력 : "); //get value from user
     scanf("%d", &a);
-    printf("value_B값 입력 : ");
-    scanf("%d", &b);
+    printf("value_B값 입력 : "); //get value from user
+    scanf("%d", &b); 
 
     swap(p1,p2); //swap value of a and b
 
