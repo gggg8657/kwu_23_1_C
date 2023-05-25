@@ -15,8 +15,8 @@ int main()
 
     swap(p1,p2); //swap value of a and b
 
-    printf("changed value of variable of P1 is %d \nchanged value of variable of P2 is %d \n", *p1, *p2);
-    printf("changed value of variable of A is %d \nchanged value of variable of B is %d \n", a, b);
+    printf("changed value of variable P1 is %d \nchanged value of variable P2 is %d \n", *p1, *p2);
+    printf("changed value of variable A is %d \nchanged value of variable B is %d \n", a, b);
     printf("\n\n*\t*\t*\t*end of the program*\t*\t*\t*\n");
     return 0;
 }
