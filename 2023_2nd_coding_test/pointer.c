@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 //RESULT : When snow melts, Spring will come.
-
+//예제보다 살짝 어려움
 int fix(char *ptr1, char *ptr2);
 
 int main(){

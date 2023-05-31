@@ -1,6 +1,6 @@
 // matrix calculator
 // 2d array + thinking
-//
+//어려움
 #define MAT_MAX_SIZE 5
 #include <stdio.h>
 

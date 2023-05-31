@@ -2,7 +2,7 @@
 
 //lower caes to upper case + upper case to lower case
 // array pointer + ascii code 
-
+//예제 수준
 void ltu_utl(char *tmp);
 
 int main(){

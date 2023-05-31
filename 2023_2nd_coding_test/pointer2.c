@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//예제 수준
 //같은 문자 찾기
 //스켈레톤 주고, 빈칸 채우기.
 //simple pointer
