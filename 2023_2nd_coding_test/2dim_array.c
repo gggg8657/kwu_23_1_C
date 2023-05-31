@@ -62,7 +62,7 @@ int sum(int arr1[MAT_MAX_SIZE][MAT_MAX_SIZE], int arr2[MAT_MAX_SIZE][MAT_MAX_SIZ
     for (int iter =0 ; iter<5; iter++){
         for (int iter_2 = 0; iter_2<5; iter_2++)
         {
-            result1[iter][iter_2]= arr1[iter][iter_2]+arr2[iter][iter_2];
+            result1[iter][iter_2] = arr1[iter][iter_2]+arr2[iter][iter_2];
         }
     }
     return 0;
