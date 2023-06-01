@@ -7,6 +7,7 @@ void ltu_utl(char *tmp);
 
 int main(){
     char ltu[255] = "ice Vanilla Latte";
+    printf("\noriginal text : [%s]\n", ltu);
     char* ptr = &ltu;
 
     ltu_utl(ptr);

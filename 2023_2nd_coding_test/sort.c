@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define SWP(x,y,tmp) ( (tmp)=(x), (x)=(y), (y)=(tmp) )
 
 int random_number_generator(int arr[50]);
 int print_mat(int arr[50]);
@@ -37,13 +38,19 @@ int print_mat(int arr[50]){
 
 int sorting(int arr[50]){
     int tmp;
-
-    for(int i=0; i<49; i++)
-        for(int j=i+1; j<50; j++)
-            if(arr[i]>arr[j]){
-                tmp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=tmp;
+    int least_addr;
+    
+    
+    for(int i=0; i<49; i++){ //search for least value's address
+        least_addr = i;
+        for(int j=i+1; j<50; j++) 
+            if(arr[least_addr]>arr[j]){
+                least_addr=j;
             }
+        if(i!=least_addr){
+            SWP(arr[i], arr[least_addr],tmp);
+        }
+    }
     return 0;
 }
+
